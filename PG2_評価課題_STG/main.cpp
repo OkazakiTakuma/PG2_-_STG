@@ -45,7 +45,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			break;
 		}
 	}
-
+	delete game;
 	// ライブラリの終了
 	Novice::Finalize();
 	return 0;
